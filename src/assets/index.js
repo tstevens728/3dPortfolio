@@ -26,7 +26,8 @@ import punchey from "./company/punchey.jpg";
 
 import portfolio from "./3dportfolio.png";
 import weatherapp from "./WeatherAppPreview.png";
-import tripguide from "./tripguide.png";
+import notesapp from "./NotesAppLogin.png";
+import snakegame from "./SnakeGamePreview.png"
 
 export {
   logo,
@@ -54,5 +55,6 @@ export {
   punchey,
   portfolio,
   weatherapp,
-  tripguide,
+  notesapp,
+  snakegame
 };

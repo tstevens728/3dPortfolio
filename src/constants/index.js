@@ -18,8 +18,9 @@ import {
     punchey,
     portfolio,
     weatherapp,
-    tripguide,
+    notesapp,
     threejs,
+    snakegame,
   } from "../assets";
   
   export const navLinks = [
@@ -208,8 +209,21 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: notesapp,
       source_code_link: "https://github.com/tstevens728/NoteAppWithLogin",
+    },
+    {
+      name: "Snake Game",
+      description:
+        "A basic Python game based on the classic Snake game.",
+      tags: [
+        {
+          name: "Python",
+          color: "green-text-gradient",
+        },
+      ],
+      image: snakegame,
+      source_code_link: "https://github.com/tstevens728/SnakeGame",
     },
   ];
   
