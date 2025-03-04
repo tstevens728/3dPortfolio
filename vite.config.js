@@ -7,7 +7,6 @@ export default defineConfig({
   css: {
     postcss: {
       plugins: [tailwindcss()],
-      base: "/vite-react-deploy/",
     },
   }
 })

@@ -21,6 +21,7 @@ import {
     notesapp,
     threejs,
     snakegame,
+    vroomapp
   } from "../assets";
   
   export const navLinks = [
@@ -192,6 +193,32 @@ import {
       source_code_link: "https://github.com/tstevens728/WeatherApp",
     },
     {
+      name: "Vroom App",
+      description:
+        "A fully functional Uber clone, with user creation, Stripe integration, and various Google Maps Platform APIs",
+      tags: [
+        {
+          name: "React Native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "darkblue-text-gradient",
+        },
+        {
+          name: "Stripe",
+          color: "purple-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "pink-text-gradient",
+        },
+
+      ],
+      image: vroomapp,
+      source_code_link: "https://github.com/tstevens728/VroomApp",
+    },
+    {
       name: "Noted",
       description:
         "A comprehensive notes app that allows users to register for an account, login, and create a list of notes.",
@@ -225,6 +252,7 @@ import {
       image: snakegame,
       source_code_link: "https://github.com/tstevens728/SnakeGame",
     },
+    
   ];
   
   export { services, technologies, experiences, projects };

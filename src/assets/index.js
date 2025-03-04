@@ -28,6 +28,7 @@ import portfolio from "./3dportfolio.png";
 import weatherapp from "./WeatherAppPreview.png";
 import notesapp from "./NotesAppLogin.png";
 import snakegame from "./SnakeGamePreview.png"
+import vroomapp from "./VroomApp.png"
 
 export {
   logo,
@@ -56,5 +57,6 @@ export {
   portfolio,
   weatherapp,
   notesapp,
-  snakegame
+  snakegame,
+  vroomapp
 };
